@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
         init {
-            System.loadLibrary("jni")
+            System.loadLibrary("jni-lib-name")
         }
     }
 }
